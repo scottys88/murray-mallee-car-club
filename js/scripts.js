@@ -31,16 +31,21 @@ $('#intro-para').waypoint(function (direction) {
         var icon = $('.mobile-nav-icon');
     
         nav.slideToggle(200);
-/*        if (icon.hasClass('ion-navicon-round')){
+        if (icon.hasClass('ion-navicon-round')){
             icon.addClass('ion-close-round');
             icon.removeClass('ion-navicon-round');
         }
         else {
             icon.removeClass('ion-close-round');
             icon.addClass('ion-navicon-round');
-
-        };*/
+        };
     });
     
 	
 });
+
+/* Big slider menu */
+
+ $(document).ready(function() {
+       $('.menu-link').bigSlide();
+ });
