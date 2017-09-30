@@ -95,8 +95,7 @@
 	font-weight: 600;
 }
 
-	.header {
-	background-image: url(../images/hero-image.png);
+	.header, .header.sub-page {
 	height: 50vh;
 	background-size: cover;
 	background-position: center;
@@ -216,8 +215,7 @@
 		text-align: center;
 	}
 	
-	.header {
-	background-image: url(../images/hero-image.png);
+	.header, .header.sub-page {
 	height: 35vh;
 	background-size: cover;
 	background-position: center;

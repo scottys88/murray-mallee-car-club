@@ -12,6 +12,7 @@ $('#intro-para').waypoint(function (direction) {
         else {
 				
             $('.nav-bar').removeClass('sticky-nav');
+		
 			
         }
     }, 
