@@ -1,6 +1,6 @@
 $(document).ready(function (){
 
-console.log('Eat Shit');
+
 
 //Sticky nav
 $('#intro-para').waypoint(function (direction) {
@@ -46,8 +46,3 @@ $('#intro-para').waypoint(function (direction) {
 	
 });
 
-/* Big slider menu */
-
- $(document).ready(function() {
-       $('.menu-link').bigSlide();
- });
