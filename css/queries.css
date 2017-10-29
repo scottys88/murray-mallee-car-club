@@ -32,7 +32,7 @@
     }
     
     .mobile-nav-icon.ion-navicon-round {
-        display: block;
+        display: inline-block;
 		margin-top: 10px;
 		float: right;
     }
@@ -61,17 +61,11 @@
 		  color: #fff;
 	}
 
-	#nav li a, .sticky-nav #nav li a {
+	#nav a, .sticky-nav #nav li a {
 		text-decoration: none;
 	}
 	
-	
-	#nav li:hover, .sticky-nav #nav li:hover
-	{
-	border-bottom: none;
-		text-decoration: none;
 
-	}
 	
 	#footer-nav li {
 		font-size: 80%;

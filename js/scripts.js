@@ -27,14 +27,15 @@ $('#intro-para').waypoint(function (direction) {
 /* Mobile Navigation */
 
       
-    $('.mobile-nav-icon').click(function(){
+    $('i.mobile-nav').click(function(){
         var nav = $('#nav');
-        var icon = $('.mobile-nav-icon');
+        var icon = $(this);
     
         nav.slideToggle(200);
         if (icon.hasClass('ion-navicon-round')){
-            icon.addClass('ion-close-round');
             icon.removeClass('ion-navicon-round');
+			icon.addClass('ion-close-round');
+            
         }
         else {
             icon.removeClass('ion-close-round');
