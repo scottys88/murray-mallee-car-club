@@ -19,7 +19,24 @@ $('#intro-para').waypoint(function (direction) {
     {
   offset: '60px;'
     });
+	
 
+//Home page scroll animations
+	
+/*$('#intro-para').waypoint(function(direction) {
+	
+	if (direction == "down"){
+			
+            $('#intro-para').removeClass('hidden').fadeIn(400);
+			console.log('function');
+			
+        }
+	
+    },
+    {
+  offset: '25px;'
+    });*/
+	
 
 
 
