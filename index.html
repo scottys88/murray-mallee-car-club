@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/queries.css">
+  <link rel="stylesheet" href="css-vendors/responsive-header.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -52,8 +53,8 @@
 <body>
 
 <container class="main">
-	<header>
-	  <nav>
+	
+<!--	  <nav>
 		<div class="nav-bar">
 		  <a href="index.html"><img src="images/logo_white.png" id="header-image"></a>
 			<ul id="nav">
@@ -65,11 +66,36 @@
 			</ul>
 			  <a class="mobile-nav-icon"><i class="ion-navicon-round mobile-nav"></i></a>
 		  </div>
+		</nav>-->
+		
+	<header class="header-fixed">
+
+	<div class="header-limiter">
+
+		<h1><a href="index.html"><img src="images/logo_white.png" id="header-image"></a></h1>
+
+		<nav>
+			<a href="news-listing.html">Club News</a>
+			<a href="events-listing.html">Events</a>
+			<a href="membership.html">Membership</a>
+			<a href="conditional-membership.html">Conditional Registration</a>
+			<a href="contact.html" id="phone-icon"><i class="ion-ios-telephone"></i></a>
 		</nav>
-	  <div class="header" style="background-image: url(images/hero-image.png);">
+
+	</div>
+
+</header>	
+	
+
+<!-- You need this element to prevent the content of the page from jumping up -->
+<div class="header-fixed-placeholder"></div>
+	
+	
+<!-- Hero image and copy -->
+		<div class="header" style="background-image: url(images/hero-image.png);">
 		<h1 class="hero-text" >Murray Mallee Auto Club.</h1>
 	  </div>
-	</header>
+	
 	<container>
 		<div class="row intro-para" id="intro-para">
 			<p>
@@ -213,6 +239,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js-vendors/responsive-header.js"></script>
 
 	<script src="js/scripts.js"></script>
 	<script src="js-vendors/jquery.waypoints.js"></script>

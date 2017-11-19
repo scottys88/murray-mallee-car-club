@@ -24,6 +24,8 @@
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/queries.css">
+  <link rel="stylesheet" href="css-vendors/responsive-header.css">
+	
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
@@ -49,9 +51,8 @@
 <body>
 
 <container class="main">
-	<header>
-	  <nav>
-		<div class="nav-bar menu-link">
+	<!--	  <nav>
+		<div class="nav-bar">
 		  <a href="index.html"><img src="images/logo_white.png" id="header-image"></a>
 			<ul id="nav">
 			  <a href="news-listing.html"><li>Club News</li></a>
@@ -60,13 +61,37 @@
 			  <a href="conditional-membership.html"><li>Conditional Registration</li></a>
 			  <a href="contact.html" id="phone-icon"><li><i class="ion-ios-telephone"></i></li></a>
 			</ul>
-			  <a class="mobile-nav-icon menu-link"><i class="ion-navicon-round"></i></a>
+			  <a class="mobile-nav-icon"><i class="ion-navicon-round mobile-nav"></i></a>
 		  </div>
+		</nav>-->
+		
+	<header class="header-fixed">
+
+	<div class="header-limiter">
+
+		<h1><a href="index.html"><img src="images/logo_white.png" id="header-image"></a></h1>
+
+		<nav>
+			<a href="news-listing.html">Club News</a>
+			<a href="events-listing.html">Events</a>
+			<a href="membership.html">Membership</a>
+			<a href="conditional-membership.html">Conditional Registration</a>
+			<a href="contact.html" id="phone-icon"><i class="ion-ios-telephone"></i></a>
 		</nav>
-	  <div class="header sub-page" style="background-image: url(images/about-us-banner.jpg);">
+
+	</div>
+
+</header>	
+	
+
+<!-- You need this element to prevent the content of the page from jumping up -->
+<div class="header-fixed-placeholder"></div>
+	
+	
+	<div class="header sub-page" style="background-image: url(images/about-us-banner.jpg);">
 		<h1 class="hero-text" >About Us.</h1>
 	  </div>
-	</header>
+	
 	<div class="container content-articles">
 		<div class="row content-area">
 			<p>
